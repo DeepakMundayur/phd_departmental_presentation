@@ -1,0 +1,18 @@
+\frametitle{Omnitropic descent}
+\[\begin{tikzcd}
+		&&& {p_1} &&& \\
+		\\
+		& {q_1} & {q_2} & \cdots & \cdots & {q_k} \\
+		\\
+		r_1 & r_2 & r_3 & \cdots & \cdots & r_{s-1} & r_s
+		\arrow[from=1-4, to=3-2]
+		\arrow[from=1-4, to=3-3]
+		\arrow[from=1-4, to=3-6]
+		\arrow[from=3-2, to=5-1]
+		\arrow[from=3-2, to=5-2]
+		\arrow[from=3-3, to=5-3]
+		\arrow[from=3-6, to=5-6]
+		\arrow[from=3-6, to=5-7]
+	\end{tikzcd}\]
+	\textbf{Dietmaier}: Chooses a branch of $y(p)$ at each step.\\
+	\textbf{Omnitropic}: Follow the directions given by each of the $y_i$s lazily, and then solves for the fibres and then repeats on $q_i$s with the most number of real solutions.
