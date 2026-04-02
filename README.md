@@ -1,7 +1,6 @@
 The latex files for the third year departmental presentation in my PhD. The abstract is given below:
 
 
-''' 
 Title: Maximizing the number of real solutions of a parametrized polynomial system: Dietmaier optimization and omnitropic descent
 
 Abstract: 
@@ -25,4 +24,4 @@ iteration fast and might even benefit from being able to track the solution to
 other discriminant chambers without crossing a singular point. If time
 permits, we will also describe some concrete examples that we have tried
 this on. 
-'''
+
