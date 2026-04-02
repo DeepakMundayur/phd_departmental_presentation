@@ -1,4 +1,6 @@
 The latex files for the third year departmental presentation in my PhD. The abstract is given below:
+
+
 ''' 
 Title: Maximizing the number of real solutions of a parametrized polynomial system: Dietmaier optimization and omnitropic descent
 
